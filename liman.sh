@@ -30,7 +30,7 @@ if [ "$komut" == "kur" ]; then
 
 elif [ "$komut" == "kaldır" ]; then
     echo "Liman kaldırılıyor!"
-    apt remove liman
+    apt remove ./liman-2.0-RC2-863.deb
 
 elif [ "$komut" == "administrator" ]; then
     echo "şifre sıfırlanıyor!"
